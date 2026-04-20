@@ -1,19 +1,34 @@
-# 🤖 AI Chatbot using Python
+# 🤖 AI Chatbot using Python and Basic NLP  
 
-## 📌 Description
-This project is a simple AI chatbot developed using Python. It interacts with users, remembers their name, and provides dynamic responses to create a personalized conversation experience.
+## 📌 Description  
+This project is an interactive AI chatbot built using Python...
 
-## ✨ Features
-- 👤 User name memory  
-- 🔁 Dynamic & random responses  
-- 💬 Interactive conversation flow  
-- 🧠 Basic AI-based logic handling  
+## ✨ Features  
+- 👤 User name recognition and personalized responses  
+- 🔁 Dynamic replies using randomization  
+- 💬 Continuous conversation flow using loops  
+- 🧠 Keyword-based input handling (basic NLP)  
+- 🧠 Text preprocessing (lowercasing, trimming)  
+- 🗂️ Data-driven responses using external file (data.txt)  
+- 🧠 Simple memory for context-aware replies  
+- ❓ Intelligent fallback responses for unknown inputs  
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies Used  
 - 🐍 Python  
+- 🔤 Basic NLP (text preprocessing & keyword matching)  
 
-## ▶️ How to Run
-1. Install Python  
-2. Run the following command:  
+## ▶️ How to Run  
+1. Make sure Python is installed  
+2. Run the chatbot
 
-   python chatbot.py
+## 🧠 How It Works  
+
+- User input is converted to lowercase and cleaned  
+
+- The chatbot checks input using:  
+  - External dataset (`data.txt`)  
+  - Keyword-based conditions  
+
+- Generates responses using random selection  
+
+- Maintains simple context using a memory variable  
